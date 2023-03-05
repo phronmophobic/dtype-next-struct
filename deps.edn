@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {criterium/criterium {:mvn/version "0.4.6"}
+        org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/test.check {:mvn/version "1.1.1"}
+        cnuernber/dtype-next {:mvn/version
+                              ;; "9.033"
+                              "10.000-beta-36"
+                              }}}
